@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="algo entry.cpp" />
+    <ClCompile Include="src\algo entry.cpp" />
     <ClCompile Include="src\main - variable tm.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

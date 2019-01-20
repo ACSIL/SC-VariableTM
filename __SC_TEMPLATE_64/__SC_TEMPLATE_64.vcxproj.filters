@@ -18,7 +18,7 @@
     <ClCompile Include="src\main - variable tm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="algo entry.cpp">
+    <ClCompile Include="src\algo entry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -102,7 +102,7 @@ SCSFExport scsf_VariableTradeManagement(SCStudyInterfaceRef sc)
     slpt.BeginValue = 96;
     slpt.Color = RGB(255, 255, 255);
     slpt.Region = 0;
-    slpt.Text.Format("SL/PT: %0.0f ticks", round(atr_tick_value));
+    slpt.Text.Format("SL/PT: %0.0f ticks", round(atr_tick_value) * multiplicator.GetFloat());
     slpt.LineNumber = 2;
     sc.UseTool(slpt);
 
